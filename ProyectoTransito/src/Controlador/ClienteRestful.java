@@ -32,7 +32,7 @@ public class ClienteRestful {
 
     private WebTarget webTarget;
     private Client client;
-    private static final String BASE_URI = "http://localhost:45381/RESTfulEjemplo3/webresources";
+    private static final String BASE_URI = "http://localhost:8085/RESTful/webresources";
 
     public ClienteRestful() {
         client = javax.ws.rs.client.ClientBuilder.newClient();
@@ -41,13 +41,13 @@ public class ClienteRestful {
 
     public List<Todo> getTodos() throws ClientErrorException {
         return client
-                .target("http://localhost:45381/RESTfulEjemplo3/webresources/todos/")
+                .target("http://localhost:8085/RESTful/webresources/todos/")
                 .request(MediaType.APPLICATION_JSON).get(new GenericType<List<Todo>>(){});
     }
 
     public Respuesta postTodo(Todo todo) throws ClientErrorException {
         return  client
-                .target("http://localhost:45381/RESTfulEjemplo3/webresources/todos/")
+                .target("http://localhost:8085/RESTful/webresources/todos/")
                 .request(MediaType.APPLICATION_JSON).post(Entity.entity(todo, MediaType.APPLICATION_JSON)).readEntity(Respuesta.class);
     }
 
@@ -63,7 +63,7 @@ public class ClienteRestful {
 
     public Respuesta putTodo(Todo todo) throws ClientErrorException {
         return  client
-                .target("http://localhost:45381/RESTfulEjemplo3/webresources/todos/")
+                .target("http://localhost:8085/RESTful/webresources/todos/")
                 .request(MediaType.APPLICATION_JSON).put(Entity.entity(todo, MediaType.APPLICATION_JSON)).readEntity(Respuesta.class);
     }
 
