@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F2C2064A-19AF-D793-31D0-DF437005F57A" containerWithKeyObject="29C9A60F-DA29-40F9-B0C8-DE25432647AD" localFKIndex="902D0CC5-28E6-F2E4-C6F4-64009C9414E1" name="Vias_OtrasVisuales_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:46:44 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<referredTableLongName>OtrasVisuales</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A551FD2-FCB2-8DA1-85B1-382402F1D9C2</referredTableID>
+<keyObject>B333C754-CEFA-002A-4F19-271491E4D2BF</keyObject>
+<referredKeyID>B333C754-CEFA-002A-4F19-271491E4D2BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

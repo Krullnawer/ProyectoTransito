@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1A9EA83-3198-EE00-9DE4-F214CC401AF0" name="AgentesTransito">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:59:51 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cedula" id="6F88C0F2-D61B-1AD6-27D3-1CE7B847C154">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 01:08:19 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="42EF9FBE-3A1C-351B-74C3-1773D9D35DEB">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 01:08:37 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellidos" id="9DE0CE75-1C83-741E-66AD-D7E7745483B4">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 01:10:02 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="42D0DC52-4E33-3F06-EA0B-FCB24ACF6780">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 15:32:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="9D3B2F39-A3CA-8FAC-B7F9-30C66A9B3D8F">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 15:32:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UsuarioAgente_Usuario" id="7211D198-805D-2C67-F344-31E9FCEBC44D">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-05 00:01:05 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA30334D-4A24-99A7-D9BC-75AFBFAD8BCA" referredColumn="83230678-8037-DD1D-7DDF-E9351CA82F2E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA08A82C-CD73-1035-E49E-245FA332ADBE" name="AgenteTransito_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 01:08:19 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F88C0F2-D61B-1AD6-27D3-1CE7B847C154"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56E68A21-D893-A77F-3CE8-048A6E5FFC30" name="AgentesTransito__UN">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-05 00:01:59 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7211D198-805D-2C67-F344-31E9FCEBC44D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7359016A-F852-9660-D492-CEA3597BCD9A" name="AgentesTransito_UsuarioAgente_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-05 00:01:05 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7211D198-805D-2C67-F344-31E9FCEBC44D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

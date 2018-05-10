@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B315C86A-A735-7571-7BB7-0AEAA804F66F" name="Requisitos_Tramites">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:13:01 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Requisitos_ID" id="A59AE5E1-78AB-36D3-F002-0808C79A0068">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:13:21 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67E63D4C-229C-A43E-0F72-3CAE13C41FC9" referredColumn="9078E1C9-BB2C-E475-6F52-D2A3C46BDEC6"/>
+</associations>
+</Column>
+<Column name="TiposTramite_ID" id="3140DB09-4D58-1B6A-99B8-99ADFD86B61D">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:37:48 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D17D932-E13C-A332-6D05-0520DDF1A8C7" referredColumn="D86BD86B-88FD-68B3-146C-62D36C81AD0C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BFDDC1F-B552-FDEE-2E79-50F9A4D8D289" name="Requisitos_Tramites_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:14:28 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A59AE5E1-78AB-36D3-F002-0808C79A0068"/>
+<colUsage columnID="3140DB09-4D58-1B6A-99B8-99ADFD86B61D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2501B44F-5544-7D12-C1D0-13887ED80D81" name="Requisitos_Tramites_Requisitos_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:13:21 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A59AE5E1-78AB-36D3-F002-0808C79A0068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C6CB2E9-3CC4-794C-DEBE-8E44D3196CAA" name="Requisitos_Tramites_TiposTramite_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:37:48 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3140DB09-4D58-1B6A-99B8-99ADFD86B61D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6B742F3-F074-84EE-20CE-1BE6C26228D9" name="Importaciones_Remates">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 04:06:03 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="E94C8442-5F8A-757D-5406-94C6BC3BEA65">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 04:08:22 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Importacion" id="C451054D-2CE0-BF48-A596-B03C90B34D4F">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 04:08:22 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Remate" id="7E3C649B-A65A-EA3C-5D73-BB288B23C6FB">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 04:08:22 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Documento" id="966696E1-30D8-8761-EA6A-67581AEE7B08">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 04:08:22 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="189665B3-D5CC-902D-3F61-659ABE92D985">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 04:08:22 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC366CE4-BEA1-ACFE-35C5-B241463AB008" name="Importaciones_Remates_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 04:08:22 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E94C8442-5F8A-757D-5406-94C6BC3BEA65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

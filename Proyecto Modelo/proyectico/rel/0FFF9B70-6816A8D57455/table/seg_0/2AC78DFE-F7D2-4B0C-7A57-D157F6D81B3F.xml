@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AC78DFE-F7D2-4B0C-7A57-D157F6D81B3F" name="Requisitos">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:06:57 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9078E1C9-BB2C-E475-6F52-D2A3C46BDEC6">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:07:17 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="6A40EEC9-EE2C-D8FD-ED7D-A270D597FFFD">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:07:30 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="45100E3A-205A-FDE1-8D18-B1556CB55739">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:19:18 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AFE2A58-A4CB-C752-28C3-A3746E46A82D" name="Requisitos_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:07:17 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9078E1C9-BB2C-E475-6F52-D2A3C46BDEC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9C69E762-2F38-C158-C040-11E616E520E1" containerWithKeyObject="29C9A60F-DA29-40F9-B0C8-DE25432647AD" localFKIndex="DA77E9FD-C664-54B4-A594-1915AB008398" name="Vias_Geometricas_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:08:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<referredTableLongName>Geometricas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C893F6CA-0816-5573-C3BF-05301E109AF4</referredTableID>
+<keyObject>6A057F0B-7214-D5E2-E3FC-95FE953FAC0F</keyObject>
+<referredKeyID>6A057F0B-7214-D5E2-E3FC-95FE953FAC0F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

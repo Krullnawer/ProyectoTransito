@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E159A9F-2984-F8F1-3C55-610BB37F8C1B" name="Accidentes">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 20:54:01 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_42</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BEE805F8-3FB1-B2A7-2EC4-1A8886364FA2">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:04:34 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Oficina" id="24A133D1-5700-C395-F7DC-7394E0E32991">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:04:34 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gravedad" id="37BAE937-50AE-4E67-631E-3A2398BD6762">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:04:34 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ClasesAccidente_ID" id="966AE091-9138-CAA7-47DA-7E78C60A2205">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:05:31 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="771394E1-200E-8489-83EF-F637B3581F88" referredColumn="BBED579A-591E-349A-DE91-97BD026238D8"/>
+</associations>
+</Column>
+<Column name="Choque" id="6659B713-B0D0-A7E4-3D21-34B14AEDEBDA">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:06:40 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ObjetosFijos_ID" id="26AA971D-09B2-8C08-1545-A9BD2CB2E49D">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:09:14 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13B87A89-8B97-BD13-F355-C99069A29209" referredColumn="2609D0D1-C290-458C-7076-446C9441A973"/>
+</associations>
+</Column>
+<Column name="LugaresAccidentes_ID" id="949DB942-21AC-D444-25DD-FA75B68690CB">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:12:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2E5E670-EB3E-7B20-699A-056756B96BCC" referredColumn="50E727AF-1817-A32D-CC91-8C0E40FC3DFB"/>
+</associations>
+</Column>
+<Column name="Fecha" id="CA0A136A-D917-9CA9-2685-E7A3A51F0D5E">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:13:50 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora" id="4A9090B8-5EA3-D7E8-7FAF-C6231A57375F">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:13:50 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CaracteristicasLugares_ID" id="318A94DB-1239-BA1B-B0A8-D9402A225188">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:24:33 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3AD44E6-5CBC-99DE-E656-87F2F6C5072C" referredColumn="22B9890A-E2C2-03D3-72D8-605A5DBE9F19"/>
+</associations>
+</Column>
+<Column name="CaracteristicasVias_ID" id="E6F8FA82-C04F-AF75-2128-F1F56B7FB020">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:32:32 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8696FD29-4BD2-1C5F-50AB-0397647FE4C7" referredColumn="CF3C055D-9333-7D1F-F72D-A85192B62D82"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D418635B-7BF4-4037-4CC2-9D2E96154273" name="Accidentes_PK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:04:34 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEE805F8-3FB1-B2A7-2EC4-1A8886364FA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9C5A0BA-71A6-4179-38AB-713499B15903" name="Accidentes_ClasesAccidente_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:05:31 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="966AE091-9138-CAA7-47DA-7E78C60A2205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50DF6DB5-B13F-5DBD-6016-EB78DC3AE24E" name="Accidentes_ObjetosFijos_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:09:14 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26AA971D-09B2-8C08-1545-A9BD2CB2E49D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54813F34-ED49-2701-EA08-A79212BB1594" name="Accidentes_LugaresAccidentes_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:12:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="949DB942-21AC-D444-25DD-FA75B68690CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBE806E8-1EB3-6589-46E0-526E3DD748F9" name="Accidentes_CaracteristicasLugares_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:24:33 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="318A94DB-1239-BA1B-B0A8-D9402A225188"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A714057-F893-F837-AFBA-12F86ECAA110" name="Accidentes_CaracteristicasVias_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:32:32 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6F8FA82-C04F-AF75-2128-F1F56B7FB020"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

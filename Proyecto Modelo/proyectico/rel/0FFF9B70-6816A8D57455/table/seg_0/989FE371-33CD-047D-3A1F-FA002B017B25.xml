@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="989FE371-33CD-047D-3A1F-FA002B017B25" name="TiposTramite">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:08:03 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D86BD86B-88FD-68B3-146C-62D36C81AD0C">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:08:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="556CAD88-FE55-623A-D874-D31FFB4E94C4">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:08:53 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="BC4B82DB-7EC3-003B-FA37-BD97EAE6D3EC">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:36:00 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrecioTramite" id="7C899DAB-31EC-2082-B030-2C5FC4F959AD">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:18:47 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F3C3BDA-7512-470C-AAE3-1D18B313799B" name="TiposTramite_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:08:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D86BD86B-88FD-68B3-146C-62D36C81AD0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A30041A-44FE-415B-3E61-07634A918973" containerWithKeyObject="29C9A60F-DA29-40F9-B0C8-DE25432647AD" localFKIndex="45E2DA2B-9C1B-929B-767F-661AC65AFF72" name="Vias_Iluminaciones_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:59 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<referredTableLongName>Iluminaciones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBA8D59F-F494-2610-6C1A-26C897223520</referredTableID>
+<keyObject>C660F4ED-5560-0E65-BF5C-CCEECF04B9DE</keyObject>
+<referredKeyID>C660F4ED-5560-0E65-BF5C-CCEECF04B9DE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

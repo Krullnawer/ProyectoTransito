@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A3FD8B4-5020-5D1A-E138-80366B22C5FD" name="Vehiculos_Combustibles">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 01:57:19 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Combustibles_ID" id="9C64B1EF-0A25-2B26-70BD-BB5E035CE87C">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 01:57:40 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BAB6722-4CB8-C241-A339-8D05991CF00D" referredColumn="10F2D00C-7A48-4D37-99F1-A5E0013ADDF0"/>
+</associations>
+</Column>
+<Column name="Vehiculos_Matricula" id="B1DA9E16-254B-8771-B45C-259B5756615D">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 01:57:46 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB80439C-75EB-7AEC-245B-4FB4F413C6F1" referredColumn="5504DA19-3777-2A4F-6269-70F2D7A99A45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F93CB156-7354-68D7-6B00-0073939EC204" name="Vehiculos_Combustibles_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 01:57:57 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C64B1EF-0A25-2B26-70BD-BB5E035CE87C"/>
+<colUsage columnID="B1DA9E16-254B-8771-B45C-259B5756615D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8438B7C-B9B0-3DCE-7D55-E76CF008720C" name="Vehiculos_Combustibles_Combustibles_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 01:57:40 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C64B1EF-0A25-2B26-70BD-BB5E035CE87C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C5CDD40-89F2-0ADA-885A-890969C0C035" name="Vehiculos_Combustibles_Vehiculos_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 01:57:46 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1DA9E16-254B-8771-B45C-259B5756615D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

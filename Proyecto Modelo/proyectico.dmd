@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="proyectico" id="7A828A71-AAA8-B61C-23D6-2F52EA2F8476" version="3.5">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 19:38:33 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7A828A71-AAA8-B61C-23D6-2F52EA2F8476</designId>
+</OSDM_Design>

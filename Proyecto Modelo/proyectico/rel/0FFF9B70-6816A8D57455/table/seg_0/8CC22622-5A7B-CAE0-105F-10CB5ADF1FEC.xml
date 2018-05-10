@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CC22622-5A7B-CAE0-105F-10CB5ADF1FEC" name="Vehiculos_Colores">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:50:18 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vehiculos_Matricula" id="347B7D10-D581-C97F-45F8-F382B0F4F665">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:50:40 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5AD4FBE-36F5-D7A4-29D2-56EFE881C24B" referredColumn="5504DA19-3777-2A4F-6269-70F2D7A99A45"/>
+</associations>
+</Column>
+<Column name="Colores_ID" id="762C0F3C-3944-8F5C-545B-D363DCBBCCD0">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:50:45 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="827B8CB2-EAA1-E262-7D96-393CBDEB918F" referredColumn="6156F1E5-137B-8299-4266-DA998DF9ED5F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F0F9BBC-A668-BB31-19D3-DD5F1945C0F6" name="Vehiculos_Colores_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:51:28 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="347B7D10-D581-C97F-45F8-F382B0F4F665"/>
+<colUsage columnID="762C0F3C-3944-8F5C-545B-D363DCBBCCD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90A56B01-E335-8ACE-2B45-424916D197AC" name="Vehiculos_Colores_Vehiculos_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:50:40 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="347B7D10-D581-C97F-45F8-F382B0F4F665"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E55AA75-1C5A-ED32-7079-D6EB09CD18A2" name="Vehiculos_Colores_Colores_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:50:45 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="762C0F3C-3944-8F5C-545B-D363DCBBCCD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

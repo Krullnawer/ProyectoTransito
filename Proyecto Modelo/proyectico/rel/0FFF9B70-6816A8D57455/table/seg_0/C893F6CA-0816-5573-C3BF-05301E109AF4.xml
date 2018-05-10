@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C893F6CA-0816-5573-C3BF-05301E109AF4" name="Geometricas">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:55:48 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_50</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9C35F660-D04E-7CD8-E9EC-E53EADA5958B">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:56:50 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OpcionA" id="78B15CC4-BCA6-388D-B34F-1DA9F03CC1D7">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:01:25 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OpcionB" id="398619C9-9051-E4A3-E985-01FC34DEFF72">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:01:25 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OpcionC" id="01E6B568-6E73-0431-1890-EF5B74AD55E0">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:01:25 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A057F0B-7214-D5E2-E3FC-95FE953FAC0F" name="Geometricas_PK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:56:50 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C35F660-D04E-7CD8-E9EC-E53EADA5958B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

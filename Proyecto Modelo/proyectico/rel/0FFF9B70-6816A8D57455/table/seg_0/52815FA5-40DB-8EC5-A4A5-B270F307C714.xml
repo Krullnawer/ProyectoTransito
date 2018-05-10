@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52815FA5-40DB-8EC5-A4A5-B270F307C714" name="Comparendos_Sanciones">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:56:23 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Comparendos_ID" id="EE34C378-4690-C768-744B-2B65A8ABF3D9">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:56:36 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCAC29C7-1360-83A2-7D8A-603F414B672F" referredColumn="340D7739-99FB-931E-391B-D17BC8C149BF"/>
+</associations>
+</Column>
+<Column name="Sanciones_Codigo" id="BDCCAE6D-70BC-E904-BCFD-23C226D77516">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:56:41 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66AAD3E5-4EA1-4DC4-ECB2-B8B5E56BBCCF" referredColumn="909FC483-1CAF-EED5-A693-E03DFE5B25E4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C7F5BB3-7F17-45C3-65E4-2DBA538ADC6F" name="Comparendos_Sanciones_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:56:54 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE34C378-4690-C768-744B-2B65A8ABF3D9"/>
+<colUsage columnID="BDCCAE6D-70BC-E904-BCFD-23C226D77516"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="972AA3E7-E636-95A2-E447-3351CADD71E2" name="Comparendos_Sanciones_Comparendos_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:56:36 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE34C378-4690-C768-744B-2B65A8ABF3D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96265D50-AF9E-BE8A-B93C-CBEC9BFFEC01" name="Comparendos_Sanciones_Sanciones_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:56:41 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDCCAE6D-70BC-E904-BCFD-23C226D77516"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

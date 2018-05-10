@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51CA550E-D418-4DD4-807C-46700331C4B7" name="Marcas">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-15 20:29:02 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIT" id="8EFED92B-636B-C111-5850-0848CAB08F1E">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-15 20:43:26 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="EF8DE53E-0BD3-F3AD-9D51-DCA38F0868A1">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-15 20:43:26 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E506F4EB-85F3-E0B9-C3B9-40A03A0492D3" name="Marcas_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-15 20:43:26 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EFED92B-636B-C111-5850-0848CAB08F1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

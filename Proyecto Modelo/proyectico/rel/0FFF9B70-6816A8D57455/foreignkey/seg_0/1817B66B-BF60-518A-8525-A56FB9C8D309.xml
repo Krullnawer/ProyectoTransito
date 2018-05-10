@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1817B66B-BF60-518A-8525-A56FB9C8D309" containerWithKeyObject="0AFA97FC-1820-F88F-77E6-A3D44AB09B24" localFKIndex="80484616-681B-3B8C-9837-9B3ACE351F2E" name="Controles_Demarcaciones_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:44:36 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<referredTableLongName>Demarcaciones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>106C77A5-57DE-12F0-B281-7E2CB4CC7D95</referredTableID>
+<keyObject>5DEFA4CD-5158-8DBF-CE56-AB0C985EC876</keyObject>
+<referredKeyID>5DEFA4CD-5158-8DBF-CE56-AB0C985EC876</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

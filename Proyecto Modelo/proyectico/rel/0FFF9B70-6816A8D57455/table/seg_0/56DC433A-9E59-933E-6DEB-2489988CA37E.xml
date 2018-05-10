@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56DC433A-9E59-933E-6DEB-2489988CA37E" name="Patios">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-04 23:47:48 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="ED976E05-187C-34BD-A25E-8FF213647C8B">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-04 23:49:39 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="2A3D8861-BD48-3CC1-C5C8-4B3BC04CB558">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-04 23:49:39 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="65B19C95-E1CD-9C9A-3A1E-F69EDB7A1D41">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-04 23:49:39 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CapacidadMotos" id="20D281E8-1FE6-4851-672F-FEA6CC368D28">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-04 23:49:39 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CapacidadAutos" id="3BCCA19B-16DA-AC25-E787-648F402F654F">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-04 23:49:39 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7FCABED-F347-BD22-F427-282146C4B874" name="Patios_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-04 23:49:39 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED976E05-187C-34BD-A25E-8FF213647C8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

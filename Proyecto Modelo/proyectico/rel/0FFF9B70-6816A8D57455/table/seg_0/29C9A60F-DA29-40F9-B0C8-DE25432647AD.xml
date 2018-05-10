@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29C9A60F-DA29-40F9-B0C8-DE25432647AD" name="Vias">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:47:23 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_48</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4FD829B8-26A6-792C-B8B2-F896E5E2CB73">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:55:36 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Geometricas_ID" id="3C4E7414-8413-D779-0EA2-B11DEA45D58E">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:08:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C69E762-2F38-C158-C040-11E616E520E1" referredColumn="9C35F660-D04E-7CD8-E9EC-E53EADA5958B"/>
+</associations>
+</Column>
+<Column name="Utilizacion" id="04EE6945-600A-BDFC-83C6-782204F6948A">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:00 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calzada" id="1A51B814-4670-1C36-E133-C471165DBA44">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:00 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Carriles" id="BC2069E6-D519-AF53-F1D5-D5CCFE2278E8">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:00 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Material" id="325B4AFA-64C3-6A61-F000-3EEE3CC76BE6">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:00 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado" id="AE8F1BC9-B600-13BF-3697-7F8F73A46394">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:00 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Condicion" id="BD4FD3C8-75FA-2408-4CF7-E8B6A62CABD8">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:00 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Iluminaciones_ID" id="E0AC6DC9-E2E7-EAF5-1FB9-C357A3435EFE">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:59 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A30041A-44FE-415B-3E61-07634A918973" referredColumn="593BCE80-641C-9B57-C238-B0ABC72BAEC3"/>
+</associations>
+</Column>
+<Column name="Controles_ID" id="E028F764-AEFD-3FF6-4586-064FAA29401A">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:42:17 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AED1C10F-A572-4AED-7256-6A2548BF5A2E" referredColumn="050E77BF-A97A-8FB4-9D31-9E3091CC0E58"/>
+</associations>
+</Column>
+<Column name="Visual" id="EA6AB3C3-FFF2-8611-A254-E27441D9591E">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:45:56 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OtrasVisuales_ID" id="1E610C22-AC39-D630-A8EF-5EC6089B1945">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:46:44 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2C2064A-19AF-D793-31D0-DF437005F57A" referredColumn="8697BE43-6BF8-799E-B59F-EE70940F596E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99C26908-D355-1A67-E436-F982AA510245" name="Vias_PK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:55:36 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FD829B8-26A6-792C-B8B2-F896E5E2CB73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA77E9FD-C664-54B4-A594-1915AB008398" name="Vias_Geometricas_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:08:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C4E7414-8413-D779-0EA2-B11DEA45D58E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45E2DA2B-9C1B-929B-767F-661AC65AFF72" name="Vias_Iluminaciones_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:59 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0AC6DC9-E2E7-EAF5-1FB9-C357A3435EFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F50F373B-59B0-9C64-154A-2A2D5DD3F00C" name="Vias_Controles_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:42:17 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E028F764-AEFD-3FF6-4586-064FAA29401A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="902D0CC5-28E6-F2E4-C6F4-64009C9414E1" name="Vias_OtrasVisuales_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:46:44 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E610C22-AC39-D630-A8EF-5EC6089B1945"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

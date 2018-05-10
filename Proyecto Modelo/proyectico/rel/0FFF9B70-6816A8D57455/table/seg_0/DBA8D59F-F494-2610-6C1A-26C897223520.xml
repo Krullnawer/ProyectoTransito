@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBA8D59F-F494-2610-6C1A-26C897223520" name="Iluminaciones">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:20 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_53</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="593BCE80-641C-9B57-C238-B0ABC72BAEC3">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:55 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OpcionA" id="B4EF5BE6-96A6-50DF-1798-53E6DAD77AEE">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:55 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OpcionB" id="C4C5BE3A-314C-83E6-2518-C674C4EAA726">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:55 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C660F4ED-5560-0E65-BF5C-CCEECF04B9DE" name="Iluminaciones_PK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:22:55 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="593BCE80-641C-9B57-C238-B0ABC72BAEC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

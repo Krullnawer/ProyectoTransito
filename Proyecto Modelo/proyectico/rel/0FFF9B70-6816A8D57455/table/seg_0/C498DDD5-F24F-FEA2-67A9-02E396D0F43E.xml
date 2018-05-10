@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C498DDD5-F24F-FEA2-67A9-02E396D0F43E" name="TiposServicios">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:38:01 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C5A6EB51-3B43-2ED8-B887-8F83A4853277">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:39:06 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="6939BEE4-9AD9-9FC2-81CA-12652CC40A66">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:39:06 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="4043D624-2E4E-DEB5-70E8-435AA02E8CBA">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:39:06 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3DB8123-F6E2-43FB-B7FF-8AC4FB716930" name="TiposServicios_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:39:06 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5A6EB51-3B43-2ED8-B887-8F83A4853277"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

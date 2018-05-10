@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41F26CFE-017A-E345-C9B7-7BC93739CAC1" name="CaracteristicasVias">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:59:04 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_51</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CF3C055D-9333-7D1F-F72D-A85192B62D82">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:59:22 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vias_ID1" id="4C6193A8-AD83-4A2B-160A-A2642AC6455C">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:06:53 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8F985CE-AB3E-FC06-A1C6-BCCA140D9AB1" referredColumn="4FD829B8-26A6-792C-B8B2-F896E5E2CB73"/>
+</associations>
+</Column>
+<Column name="Vias_ID2" id="DC6A721E-5EEE-8887-1EBC-A775BEF382FD">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:07:06 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8D9A759-BC5A-AD0A-1646-D4C3B54DFF22" referredColumn="4FD829B8-26A6-792C-B8B2-F896E5E2CB73"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="168F763B-0C7D-C235-9B07-46D9D5EE3481" name="CaracteristicasVias_PK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 21:59:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF3C055D-9333-7D1F-F72D-A85192B62D82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="741FD0CB-ECEB-3233-5B95-E4498CC75F3E" name="CaracteristicasVias_Vias_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:06:53 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C6193A8-AD83-4A2B-160A-A2642AC6455C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E1D4E29-3218-A23E-D44F-AE306B508E25" name="CaracteristicasVias_Vias_FKv2">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:07:06 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC6A721E-5EEE-8887-1EBC-A775BEF382FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96961370-7E79-FD0B-9EA1-9D9C4DE324DC" name="Señales">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:40:24 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_56</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="38460B72-BE8E-4C76-7D1D-C6E4BA588775">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:41:13 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="E6C926BC-C9D4-7537-8EBB-B2CFAA19D680">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:41:13 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OtrasSeñales_ID" id="4DE23C09-630A-51E9-B5BF-9FFA43D3FE1D">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:42:43 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEFC5B4D-782D-C341-C69B-0D1D728D8E25" referredColumn="F877C29C-AA61-9294-4552-D257BDF379CA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EC498BA-096C-59A9-3B6A-4A5BB075D7CF" name="Señales_PK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:41:13 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38460B72-BE8E-4C76-7D1D-C6E4BA588775"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43DC2BB9-11D6-14F0-C830-F207DE37A607" name="Señales_OtrasSeñales_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:42:43 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DE23C09-630A-51E9-B5BF-9FFA43D3FE1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

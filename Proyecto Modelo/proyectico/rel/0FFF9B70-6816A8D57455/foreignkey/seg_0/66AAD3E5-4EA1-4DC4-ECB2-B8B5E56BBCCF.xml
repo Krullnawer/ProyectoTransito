@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="66AAD3E5-4EA1-4DC4-ECB2-B8B5E56BBCCF" containerWithKeyObject="52815FA5-40DB-8EC5-A4A5-B270F307C714" localFKIndex="96265D50-AF9E-BE8A-B93C-CBEC9BFFEC01" name="Comparendos_Sanciones_Sanciones_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:56:41 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<referredTableLongName>Sanciones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>40E793A7-0DE1-F659-AC11-CBC08F3C9790</referredTableID>
+<keyObject>AE87C719-8AE6-5C4F-85AD-D2D12B99F44B</keyObject>
+<referredKeyID>AE87C719-8AE6-5C4F-85AD-D2D12B99F44B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

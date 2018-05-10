@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EEEFC5C-424B-7144-A99F-73FAF127D4E2" name="Vehiculos">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:29:20 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Matricula" id="5504DA19-3777-2A4F-6269-70F2D7A99A45">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:29:20 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="E7587FED-98AD-BD2C-0CE5-39C9DB5F0CC4">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:29:20 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudadanos_Cedula" id="EE8E46F6-39EA-8732-BE2F-CFDDBA4E2AEB">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:37:34 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A7EAB95-1E09-DAAF-67AD-730149C4A277" referredColumn="6185E71C-9791-38FE-7B75-2FE2B3A0E561"/>
+</associations>
+</Column>
+<Column name="TipoVehiculos_ID" id="FC9BB360-7051-E5F6-E68F-BD9E70B7EC75">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:38:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D559510-13F3-A7B3-2B2F-F6B34683F285" referredColumn="26DE8DBB-B098-3975-A878-79102CE53D5F"/>
+</associations>
+</Column>
+<Column name="Patios_ID" id="220EA3AA-5DFF-4646-9675-212983BBFDD7">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-04 23:49:56 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C39E533-3BDF-A77D-9B46-D0E82DD6E8D4" referredColumn="ED976E05-187C-34BD-A25E-8FF213647C8B"/>
+</associations>
+</Column>
+<Column name="Cilindraje" id="9DF3E02B-925E-3AB2-C838-5F01DE78AEED">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 01:50:51 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacidad" id="3279B0E0-ED37-F9B6-B54C-E7C4F4E52819">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:32:57 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Blindaje" id="B0AE5FA8-B97C-096A-C46C-8B1F5C0BEB7B">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:32:57 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TiposServicios_ID" id="A2E301DF-AEF7-E00B-8375-3CC1B4D22EBF">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:39:12 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86637A79-DE52-A2E5-BBE6-7D0FF4966BC7" referredColumn="C5A6EB51-3B43-2ED8-B887-8F83A4853277"/>
+</associations>
+</Column>
+<Column name="Carrocerias_Codigo" id="C80A95DC-4F3A-CB32-92A5-33ED4D777255">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 03:38:01 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA4C47E9-5F16-F1B0-EBEC-03F1A981EC62" referredColumn="89FC9AFD-9A48-58A3-1592-CD417984A584"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E082295B-610D-5D3C-A25D-E682204BDF17" name="Vehiculosv1_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:29:20 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5504DA19-3777-2A4F-6269-70F2D7A99A45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="534D956D-712E-D379-A1E6-ADA1DB4D9751" name="Vehiculos_Ciudadanos_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:37:33 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE8E46F6-39EA-8732-BE2F-CFDDBA4E2AEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3274EC8E-6B48-B101-4472-3026411097BF" name="Vehiculos_TipoVehiculos_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:38:27 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC9BB360-7051-E5F6-E68F-BD9E70B7EC75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA63F114-87B8-6038-FAEC-AAE7ED11CC53" name="Vehiculos_Patios_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-04 23:49:55 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="220EA3AA-5DFF-4646-9675-212983BBFDD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="963DAAD5-7199-F1FA-6550-C20E245DEA96" name="Vehiculos_TiposServicios_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 02:39:12 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2E301DF-AEF7-E00B-8375-3CC1B4D22EBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="613874B4-DA7A-B78B-2822-2E972C6EB50D" name="Vehiculos_Carrocerias_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 03:38:00 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C80A95DC-4F3A-CB32-92A5-33ED4D777255"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

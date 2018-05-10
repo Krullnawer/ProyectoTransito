@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60F4C03D-132C-F147-FF94-C2D3F416F8AD" name="UsuarioCiudadano">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 20:46:31 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuario" id="88EBEDB1-C697-E3C1-C686-5365B86C5924">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 20:46:31 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contraseña" id="39A51291-19D4-67A4-4334-FBEBA6411A94">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 20:46:31 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Correo" id="AD68CF01-B6F5-5827-07B9-853918D4562C">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 20:46:31 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8866B2B5-836E-8301-C3CB-562CEA17DD4C" name="UsuarioAgentev1_PK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 20:46:31 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88EBEDB1-C697-E3C1-C686-5365B86C5924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

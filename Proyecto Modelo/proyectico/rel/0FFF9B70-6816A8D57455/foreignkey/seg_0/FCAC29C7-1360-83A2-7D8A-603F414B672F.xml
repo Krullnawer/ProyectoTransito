@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FCAC29C7-1360-83A2-7D8A-603F414B672F" containerWithKeyObject="52815FA5-40DB-8EC5-A4A5-B270F307C714" localFKIndex="972AA3E7-E636-95A2-E447-3351CADD71E2" name="Comparendos_Sanciones_Comparendos_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:56:36 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<referredTableLongName>Comparendos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8B93492F-CCE0-7160-CA2F-7AB821DD0DFF</referredTableID>
+<keyObject>AA03B3FB-9667-D940-32A0-90EB2800AE93</keyObject>
+<referredKeyID>AA03B3FB-9667-D940-32A0-90EB2800AE93</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

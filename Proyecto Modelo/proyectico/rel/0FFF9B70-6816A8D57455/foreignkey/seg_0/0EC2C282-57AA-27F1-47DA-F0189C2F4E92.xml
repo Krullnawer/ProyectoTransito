@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0EC2C282-57AA-27F1-47DA-F0189C2F4E92" containerWithKeyObject="696F1A67-FA05-3773-8F0C-625E0CDD146E" localFKIndex="6CDDC0F3-E38B-2B9A-72A7-A426067EAEBD" name="TramitesVehiculares_Importaciones_Remates_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-06 04:09:01 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<referredTableLongName>Importaciones_Remates</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6B742F3-F074-84EE-20CE-1BE6C26228D9</referredTableID>
+<keyObject>CC366CE4-BEA1-ACFE-35C5-B241463AB008</keyObject>
+<referredKeyID>CC366CE4-BEA1-ACFE-35C5-B241463AB008</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

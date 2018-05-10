@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40E793A7-0DE1-F659-AC11-CBC08F3C9790" name="Sanciones">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:49:52 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="909FC483-1CAF-EED5-A693-E03DFE5B25E4">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:50:21 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="80471CF6-D529-167C-74DC-3C371D01651B">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:50:43 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inmovilizacion" id="01FE3055-8FED-AEFE-A2D8-DE1621F0FD77">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:51:05 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SuspencionLicencia" id="DAE8D1CE-BC18-41FB-94EB-8F357228B3A3">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:51:35 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salarios" id="A3C77C17-A02F-7AFD-185E-D2D9B9A75607">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:52:02 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE87C719-8AE6-5C4F-85AD-D2D12B99F44B" name="Sanciones_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:50:21 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="909FC483-1CAF-EED5-A693-E03DFE5B25E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

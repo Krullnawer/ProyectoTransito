@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A269228-1881-DBF0-8E8B-93FF63F59678" name="FacturasComparendos">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:13:55 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9AB2A6A0-5B68-0D12-1C36-637F60A97307">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:14:26 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrecioFinal" id="75355CEC-DF13-1D50-757E-05C7070515CA">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:14:26 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="3CA154E4-B981-B1A4-B7DA-CE96664FFFB5">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:15:47 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Funcionarios_Cedula" id="6C2BD93F-4392-28E3-F051-D7161BE2B046">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:16:06 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87A9AC44-87DA-4177-6D09-9F73E6D06C33" referredColumn="72692D11-1A04-5AC2-E756-33A421E01DFA"/>
+</associations>
+</Column>
+<Column name="Comparendo" id="BDAD214D-B29B-C29A-EAAC-BA344F817BB1">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:16:29 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13D444B7-746A-5936-0DAC-49FEA5DDBB16" referredColumn="340D7739-99FB-931E-391B-D17BC8C149BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7A08D4C-23D1-501E-9673-C665C191CC51" name="FacturasComparendos_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:14:26 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AB2A6A0-5B68-0D12-1C36-637F60A97307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="975F49D7-13A8-B384-04FB-0145310B86B9" name="FacturasComparendos_Funcionarios_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:16:06 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C2BD93F-4392-28E3-F051-D7161BE2B046"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C497F2A5-0D85-3815-03F8-0B7A954668EC" name="FacturasComparendos_Comparendos_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:16:54 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDAD214D-B29B-C29A-EAAC-BA344F817BB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

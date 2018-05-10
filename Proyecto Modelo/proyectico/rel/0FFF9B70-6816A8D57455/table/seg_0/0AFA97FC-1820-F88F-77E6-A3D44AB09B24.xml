@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AFA97FC-1820-F88F-77E6-A3D44AB09B24" name="Controles">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:38:34 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_55</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="050E77BF-A97A-8FB4-9D31-9E3091CC0E58">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:40:19 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Agente" id="3B5B2549-3525-7904-58D9-4D1718269429">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:40:19 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Semaforo" id="BB5C409B-2C05-D1AE-BA09-B20212BAE492">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:40:19 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Señales_ID" id="C58015E1-3AA3-11D1-224C-727EE13AEB06">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:42:22 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38BD7B90-118E-87BD-8BB1-C66415762B92" referredColumn="38460B72-BE8E-4C76-7D1D-C6E4BA588775"/>
+</associations>
+</Column>
+<Column name="Demarcaciones_ID" id="F2C27D46-8AE9-82AF-17DB-1BEFD7790395">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:44:36 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1817B66B-BF60-518A-8525-A56FB9C8D309" referredColumn="32A50FA9-B005-7BC7-5DCE-C0E42F9786D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F421A314-1B53-AD43-C45D-BD13D7EE01F9" name="Controles_PK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:40:19 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="050E77BF-A97A-8FB4-9D31-9E3091CC0E58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ABC15E4-4D13-08BE-77E4-8D3B498170C6" name="Controles_Señales_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:42:22 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C58015E1-3AA3-11D1-224C-727EE13AEB06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80484616-681B-3B8C-9837-9B3ACE351F2E" name="Controles_Demarcaciones_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 22:44:36 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2C27D46-8AE9-82AF-17DB-1BEFD7790395"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

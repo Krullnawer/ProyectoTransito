@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="254FEAAF-DB37-6DA3-A84A-D62BCBA4B368" name="TipoVehiculos">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:29:20 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="26DE8DBB-B098-3975-A878-79102CE53D5F">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:29:20 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo" id="69C645A1-583F-4CDC-8BA4-30B3A6319C74">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:29:20 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Modelo_ID" id="0E99C27D-CF5F-021F-B8F0-6D31ED86D368">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-15 20:56:06 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="651A5A92-6008-0529-1412-29CD6411A8ED" referredColumn="3C4E9C33-93C9-D663-3DC8-A0E3E7E0F36D"/>
+</associations>
+</Column>
+<Column name="Marcas_NIT" id="CB10D45B-1109-542F-750D-0C825CD3A850">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-15 20:56:12 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C047222F-8EEA-D5F1-06E6-83ADA86801F7" referredColumn="8EFED92B-636B-C111-5850-0848CAB08F1E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55EBF587-46B1-44E9-0B7E-266AC2A0CAAA" name="TipoVehiculosv1_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-03-29 22:29:20 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26DE8DBB-B098-3975-A878-79102CE53D5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7279EA55-8843-069B-DABA-B9039D5815F9" name="TipoVehiculos_Modelo_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-15 20:56:06 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E99C27D-CF5F-021F-B8F0-6D31ED86D368"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0DE1846-1510-907E-A0F2-79D81AC5E24B" name="TipoVehiculos_Marcas_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-15 20:56:12 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB10D45B-1109-542F-750D-0C825CD3A850"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="483C8C25-A4DE-8E3D-5258-FB931D3480BC" name="Cursos_Horarios">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:50:21 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CursosPedagogicos_ID" id="F58EF2C2-2117-2CCF-B067-145A28DD1F4C">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:50:36 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B22296E-CCC5-C418-4D36-69F7B380ACDE" referredColumn="1F1F005E-871C-BF15-3C4C-404621E430F9"/>
+</associations>
+</Column>
+<Column name="Horarios_Dia" id="B87F131B-C17B-58B6-B525-A390314417A2">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:50:40 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E9E61DB-9794-C5FF-30AA-011E2CB47B4F" referredColumn="DBAA78A6-3C5C-7922-835D-08727CC1FE09"/>
+</associations>
+</Column>
+<Column name="Horarios_HoraInicial" id="538A1DCC-ECE6-19B1-A37E-48B39B633910">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:50:40 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E9E61DB-9794-C5FF-30AA-011E2CB47B4F" referredColumn="658B61F7-8A5F-0B43-D470-78BF170DCD4D"/>
+</associations>
+</Column>
+<Column name="Horarios_HoraFinal" id="78CB9F47-8F4A-FE13-E88A-AE97B23E4BFC">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:50:40 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E9E61DB-9794-C5FF-30AA-011E2CB47B4F" referredColumn="6F486BE5-504E-4005-5502-624DF19374E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26DCBDCD-D448-1D78-1443-D99B8F51F4EC" name="Cursos_Horarios_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:52:11 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F58EF2C2-2117-2CCF-B067-145A28DD1F4C"/>
+<colUsage columnID="B87F131B-C17B-58B6-B525-A390314417A2"/>
+<colUsage columnID="538A1DCC-ECE6-19B1-A37E-48B39B633910"/>
+<colUsage columnID="78CB9F47-8F4A-FE13-E88A-AE97B23E4BFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ADA50BCA-5CAD-93E2-C3E8-6531504845E6" name="Cursos_Horarios_CursosPedagogicos_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:50:36 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F58EF2C2-2117-2CCF-B067-145A28DD1F4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC0A1983-3C9D-0E07-8E89-E66267AA2A53" name="Cursos_Horarios_Horarios_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-02 00:50:40 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B87F131B-C17B-58B6-B525-A390314417A2"/>
+<colUsage columnID="538A1DCC-ECE6-19B1-A37E-48B39B633910"/>
+<colUsage columnID="78CB9F47-8F4A-FE13-E88A-AE97B23E4BFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

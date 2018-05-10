@@ -1,0 +1,215 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B93492F-CCE0-7160-CA2F-7AB821DD0DFF" name="Comparendos">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:24:05 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="340D7739-99FB-931E-391B-D17BC8C149BF">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:24:24 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Inicial" id="8D91A8B7-4538-088B-2B9C-A79922BFD898">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:25:36 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudadano" id="1F3925D5-C868-601C-C8BC-48B316C0129C">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:28:14 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBC6A5BC-9B8C-0C70-B8D6-CFE1D2F50869" referredColumn="6185E71C-9791-38FE-7B75-2FE2B3A0E561"/>
+</associations>
+</Column>
+<Column name="Descripcion" id="3629FBC0-1597-16C4-61C8-21D12ED20F46">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:41:55 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Testigo_Documento" id="76816E3A-DEF5-5003-4FB8-67AF05A8920F">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:36:48 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D72DEA83-95F1-8D0F-8F56-73FFBF7F7480" referredColumn="E8113AF2-0EDC-67F0-7DCD-A7BC51627E80"/>
+</associations>
+</Column>
+<Column name="Estado" id="77DF4BBE-4DD3-BBB9-115F-47FCF32FDA25">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:38:04 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Infracciones_ID" id="24820AC7-455C-04D1-BAF3-D8EA79F49B6F">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:42:54 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6662E5C-7D82-F239-ED72-59A966B7EF67" referredColumn="D7A978D4-5DD3-5E92-82FD-37CEED5A9D37"/>
+</associations>
+</Column>
+<Column name="AgenteTransito_Cedula" id="33C080D1-9E3E-6694-3277-C5D025230B26">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 01:10:35 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4137DD7-4B28-0769-D718-8D78BF14E221" referredColumn="6F88C0F2-D61B-1AD6-27D3-1CE7B847C154"/>
+</associations>
+</Column>
+<Column name="Accidentes_ID" id="0A7F7807-9392-34D7-1FA6-B73AFC732B78">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 23:05:57 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F282AC90-4AE2-C672-A392-B045CB5D4253" referredColumn="BEE805F8-3FB1-B2A7-2EC4-1A8886364FA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA03B3FB-9667-D940-32A0-90EB2800AE93" name="Comparendos_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:24:24 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="340D7739-99FB-931E-391B-D17BC8C149BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81C688D6-4BF0-E5C9-3AD7-5EB55DC3E6A0" name="Comparendos__UN">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:43:28 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24820AC7-455C-04D1-BAF3-D8EA79F49B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54EDE9CF-406A-E8CE-1EAC-A347FC12260E" name="Comparendos__UNv1">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 01:26:14 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="2BBE6D9F-BFD2-6569-250D-3D29BE4AE241" name="Comparendos__UNv2">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 23:06:51 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A7F7807-9392-34D7-1FA6-B73AFC732B78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1E05232-A21A-EA30-A346-B6ECF43FBFC0" name="Comparendos_Ciudadanos_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:28:42 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F3925D5-C868-601C-C8BC-48B316C0129C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A071820-D451-B3C5-27DF-3132C92407BD" name="Comparendos_Testigo_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:36:48 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76816E3A-DEF5-5003-4FB8-67AF05A8920F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03C4B130-0E9E-FC52-92DE-4962CF1DF1A0" name="Comparendos_Infracciones_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 00:42:54 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24820AC7-455C-04D1-BAF3-D8EA79F49B6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFB6A02C-145A-8CE9-22BA-EFED8A4F4EE7" name="Comparendos_AgenteTransito_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 01:10:35 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33C080D1-9E3E-6694-3277-C5D025230B26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60F809FC-2A4C-E2D8-BE8B-D2DB21450D57" name="Comparendos_Accidentes_FK">
+<createdBy>julian</createdBy>
+<createdTime>2018-04-29 23:06:24 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A7F7807-9392-34D7-1FA6-B73AFC732B78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F011894-F0AF-EFFA-1981-7AA9776BD364" name="CursosPedagogicos">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 15:37:35 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1F1F005E-871C-BF15-3C4C-404621E430F9">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 15:39:41 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="BE3AAD37-5636-0AEE-798B-794EA48E2476">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 15:39:41 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Inicial" id="5FBC4D54-47FD-FE95-5105-AA410B96D15B">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 15:39:41 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Funcionarios_Cedula" id="62D1F5D3-6DF9-D907-A30D-A6DF2928EA7B">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 15:39:59 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B137DC05-B282-9DE9-58EE-4A4D4248E211" referredColumn="72692D11-1A04-5AC2-E756-33A421E01DFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FB3537F-CAB4-3E18-366B-EB2FEFCB3DAC" name="CursosPedagogicos_PK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 15:39:41 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F1F005E-871C-BF15-3C4C-404621E430F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60CE22AF-980D-242C-5648-4400B06649E9" name="CursosPedagogicos_Funcionarios_FK">
+<createdBy>Julian</createdBy>
+<createdTime>2018-04-01 15:39:59 UTC</createdTime>
+<ownerDesignName>proyectico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62D1F5D3-6DF9-D907-A30D-A6DF2928EA7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
