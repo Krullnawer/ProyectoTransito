@@ -1,0 +1,15 @@
+/* AUTOMATICALLY GENERATED ON Mon Apr 02 01:19:19 COT 2018*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
+  permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "servletSample.controller.GetUserServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "default", "**";
+};
+

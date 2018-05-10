@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript"
+	src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript">
+	function loadXMLDoc() {
+		var xmlhttp;
+		var processData = 'JSON';
+		var url = "./GetUserServlet";
+		if (window.XMLHttpRequest) {
+			xmlhttp = new XMLHttpRequest();
+		} else {
+			xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+				var jsonResponse =JSON.parse(xmlhttp.response);
+				alert("Data type process: " + jsonResponse.processData
+						+ " First Name: " + jsonResponse.firstName + " Last Name: "
+						+ jsonResponse.lastName)
+			}
+		}
+
+		xmlhttp.open("GET", url, true);
+		xmlhttp.setRequestHeader("Content-Type", "application/json");
+		xmlhttp.send();
+	}
+
+	function returnJSONData() {
+		var processData = 'JSON';
+		$.ajax({
+			type : "GET",
+			url : "./GetUserServlet",
+			data : "processData=" + processData,
+			success : function(result) {
+				alert("Data type process: " + result.processData
+						+ " First Name: " + result.firstName + " Last Name: "
+						+ result.lastName)
+			},
+			error : function(xhr, ajaxOptions, thrownError) {
+				alert("Error status code: " + xhr.status);
+				alert("Error details: " + thrownError);
+			}
+		});
+
+	}
+</script>
+</head>
+<body>
+
+	<input type="Submit" value="JSON data from servlet"
+		onclick="loadXMLDoc();">
+
+</body>
+</html>
