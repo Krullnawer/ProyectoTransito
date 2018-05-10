@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="main_view" objectID="4B86436E-422E-595B-062A-6123B9DF5C55" name="Proyecto" visible="true"/>
-   <object objectType="sub_view" objectID="45FC1C92-86AC-6DB9-38C9-F02E7021F96E" name="Accidentes" visible="true"/>
-   <object objectType="sub_view" objectID="1C29B160-0531-DD99-3BE3-1C5E711F5BFE" name="Ciudadanos y Tramites" visible="true"/>
    <object objectType="sub_view" objectID="0C068686-217E-6197-259D-F6236E30C5BE" name="Comparendos" visible="true"/>
+   <object objectType="sub_view" objectID="1C29B160-0531-DD99-3BE3-1C5E711F5BFE" name="Ciudadanos y Tramites" visible="true"/>
+   <object objectType="sub_view" objectID="45FC1C92-86AC-6DB9-38C9-F02E7021F96E" name="Accidentes" visible="true"/>
+   <object objectType="main_view" objectID="4B86436E-422E-595B-062A-6123B9DF5C55" name="Proyecto" visible="true"/>
    <object objectType="sub_view" objectID="50B05B06-E98A-1A35-359F-01A66067E1F4" name="Funcionarios" visible="true"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>
